@@ -1,0 +1,11 @@
+language: java
+
+java:
+  -7.0
+
+
+before_script:
+  -composer install --no-interaction
+
+scripts:
+  -
